@@ -2,11 +2,11 @@
 title: "FlutterからiOSのWidgetKitを使う"
 emoji: "📱"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [Flutter, swiftUI, WidgetKit, AppGroup, UserDefault]
+topics: [Flutter, swiftUI, WidgetKit, AppGroup, UserDefaults]
 published: true
 ---
 こんにちは。Flutterで個人開発をしているKyoichiです。
-私は１ヶ月に使用できる目標金額から逆算してお金を管理する家計簿アプリ「Monthsave」を2022年2月にリリースしました。
+私は、１ヶ月に使用できる目標金額から逆算してお金を管理する家計簿アプリ「Monthsave」を2022年2月にリリースしました。
 https://apps.apple.com/jp/app/%EF%BC%91%E3%83%B6%E6%9C%88%E3%81%AE%E4%BA%88%E7%AE%97%E3%82%92%E6%B1%BA%E3%82%81%E3%81%A6%E7%AE%A1%E7%90%86-monthsave/id1609449862?ign-itscg=30200&ign-itsct=apps_box_link
 このFlutterアプリでiOSのウィジェット機能を使用することになりました。しかしFlutterにはウィジェット機能を提供するパッケージがありません。よってswiftのコードを呼び出してこの機能を実装する必要があり、少々詰まりました。そこで、コピペ改変でこの機能を実装できるように記事を書きました。
 
