@@ -26,7 +26,7 @@ https://apps.apple.com/jp/app/%E3%81%94%E3%81%BB%E3%81%86%E3%81%B3%E7%BF%92%E6%8
 
 全体のコードは以下のようになります。通知機能全体を一つのアプリケーションサービスとしてまとめました。
 
-``` swift
+```swift
 import Foundation
 import UserNotifications
 
