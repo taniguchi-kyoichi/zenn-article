@@ -9,7 +9,7 @@ published: true
 この記事では、タニタのHealth Planet APIを使用して体重情報を取得し、そのデータをSlackで毎日指定した時間に通知する方法をご紹介します。Go言語での実装からDockerコンテナ化、そしてGitHub Actionsを使ったスケジュール実行までを解説します。
 
 完成形としては以下のような感じです。
-![完成画像](/articles/images/health-slack.jpeg)
+![完成画像](/images/health-slack.jpeg)
 
 必要な工程は以下のようになります。
 1. タニタのHealth Planet APIを新規登録する
@@ -27,7 +27,7 @@ https://amzn.to/3T2jsOj
 この体重計では、スマートフォンとBluetooth接続することができます。スマホのアプリ上でデータを登録するボタンを押すと自動的に体重計の電源が入って、計ったデータはBluetooth経由でhealth planetのデータベース上に登録されるため、非常に便利に使っています。
 
 
-[ヘルスプラネット 健康管理アプリ](https://apps.apple.com/jp/app/id692700901)
+https://apps.apple.com/jp/app/id692700901
 
 APIの登録などはAPIのドキュメントなどを参考に進めてください。特に難しくはありません。
 
